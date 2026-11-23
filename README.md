@@ -1,4 +1,6 @@
-# openpgpkey.omarchy.org
+# SigmaOS openpgpkey
+
+> Forked from omacom/openpgpkey (MIT). See `SIGMAOS_FORK.md`.
 
 The [Web Key Directory](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/) (WKD) for omarchy.org. Any OpenPGP client can fetch Omarchy's key from the address `pkgs@omarchy.org`, over HTTPS, with no keyserver.
 
