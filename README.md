@@ -1,17 +1,17 @@
 # SigmaOS openpgpkey
 
-> Forked from omacom/openpgpkey (MIT). See `SIGMAOS_FORK.md`.
+> Forked from SigmaOS/openpgpkey (MIT). See `SIGMAOS_FORK.md`.
 
-The [Web Key Directory](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/) (WKD) for omarchy.org. Any OpenPGP client can fetch Omarchy's key from the address `pkgs@omarchy.org`, over HTTPS, with no keyserver.
+The [Web Key Directory](https://datatracker.ietf.org/doc/draft-koch-openpgp-webkey-service/) (WKD) for omarchy.org. Any OpenPGP client can fetch SigmaOS's key from the address `pkgs@omarchy.org`, over HTTPS, with no keyserver.
 
-That key signs the Omarchy packages and ISOs:
+That key signs the SigmaOS packages and ISOs:
 
 ```
 40DF B630 FF42 BCFF B047  046C F013 4EE6 80CA C571
-Omarchy <pkgs@omarchy.org>
+SigmaOS <pkgs@omarchy.org>
 ```
 
-`omarchy.gpg` is the key. It is the same file that the `omarchy-keyring` package installs, and the [Omarchy manual](https://omarchy.org/manual/security/) lists the same fingerprint.
+`omarchy.gpg` is the key. It is the same file that the `omarchy-keyring` package installs, and the [SigmaOS manual](https://omarchy.org/manual/security/) lists the same fingerprint.
 
 ## Get the key
 
@@ -23,7 +23,7 @@ GnuPG looks the key up through WKD by default. Check that the fingerprint gpg pr
 
 ## Update the key
 
-1. Copy the new `omarchy.gpg` from `pkgbuilds/omarchy-keyring/` in [omacom/omarchy-pkgs](https://github.com/omacom/omarchy-pkgs) over the one here.
+1. Copy the new `omarchy.gpg` from `pkgbuilds/omarchy-keyring/` in [AaryanSinghChauhan09/SigmaOS-pkgs](https://github.com/AaryanSinghChauhan09/SigmaOS-pkgs) over the one here.
 2. Write the WKD files from it with GnuPG's own tool:
 
    ```bash
