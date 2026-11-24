@@ -102,3 +102,8 @@ npx wrangler delete
 ```
 
 This removes the Worker, its DNS record and its route on `omarchy.org`. No WKD lookup then finds the key.
+## Documentation
+
+Wiki documentation is available in the SigmaOS Wiki Staging repository:
+
+- [SigmaOS Wiki Staging](https://github.com/AaryanSinghChauhan09/sigmaos-wiki-staging#SigmaOS-openpgpkey) - Full Wiki documentation for all SigmaOS components
