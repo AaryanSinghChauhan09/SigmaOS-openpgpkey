@@ -107,3 +107,11 @@ This removes the Worker, its DNS record and its route on `sigmaos.org`. No WKD l
 Wiki documentation is available in the SigmaOS Wiki Staging repository:
 
 - [SigmaOS Wiki Staging](https://github.com/AaryanSinghChauhan09/sigmaos-wiki-staging#SigmaOS-openpgpkey) - Full Wiki documentation for all SigmaOS components
+
+## See Also
+
+Related SigmaOS **Security** repositories:
+
+- [SigmaOS-security-hardening](../SigmaOS-security-hardening/README.md) — SigmaOS kernel & system security hardening
+- [SigmaOS-sec-audit](../SigmaOS-sec-audit/README.md) — SigmaOS security audit framework
+- [SigmaOS-signed](../SigmaOS-signed/README.md) — SigmaOS package & artifact signing
